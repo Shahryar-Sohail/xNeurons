@@ -3,6 +3,8 @@ import Slider from "react-slick";
 import codeImg from "../assets/bigdata.jpeg";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css"; // Ensure the slick CSS is included
+import qoute from "../assets/qoute.jpg";
+import robot from "../assets/robot.jpeg";
 
 const Workflow = () => {
   const settings = {
@@ -29,10 +31,10 @@ const Workflow = () => {
 
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-10">
         <div class="h-[300px] sm:h-[500px]">
-          <img class="w-full h-full object-cover rounded-lg" src="../src/assets/qoute.jpg" alt="" />
+          <img class="w-full h-full object-cover rounded-lg" src={qoute} alt="" />
         </div>
         <div class="h-[300px] sm:h-[500px]">
-          <img class="w-full h-full object-cover rounded-lg" src="../src/assets/robot.jpeg" alt="" />
+          <img class="w-full h-full object-cover rounded-lg" src={robot} alt="" />
         </div>
       </div>
 

@@ -4,6 +4,15 @@ import { Fingerprint } from "lucide-react";
 import { ShieldHalf } from "lucide-react";
 import { PlugZap } from "lucide-react";
 import { GlobeLock } from "lucide-react";
+import mern from "../assets/mern.avif";
+import wordpress from "../assets/wordpress.png";
+import webScraping from "../assets/webScraping.png";
+import nlp from "../assets/nlp.jpeg";
+import llm from "../assets/llm.jpeg";
+import cv from "../assets/cv.jpeg";
+import bigData from "../assets/bigdata.jpeg";
+import dataAnalysis from "../assets/dataanalysis.jpeg";
+import automation from "../assets/automation.jpeg";
 
 import user1 from "../assets/Canada.webp";
 import user2 from "../assets/USA.webp";
@@ -60,63 +69,63 @@ export const testimonials = [
 
 export const features = [
   {
-    img: "src/assets/mern.avif",
+    img: mern,
     icon: <BotMessageSquare />,
     text: "MERN Stack Development",
     description:
       "End to End MERN stack development for any Bussiness",
   },
   {
-    img: "src/assets/wordpress.png",
+    img: wordpress,
     icon: <Fingerprint />,
     text: "WordPress Full Stack Development",
     description:
       "Easy to manage, best for small Bussiness and Brands",
   },
   {
-    img: "src/assets/webScraping.png",
+    img: webScraping,
     icon: <ShieldHalf />,
     text: "Web Scraping using Python",
     description:
       "Scrap bulk data according to requirement using Python",
   },
   {
-    img: "src/assets/nlp.jpeg",
+    img: nlp,
     icon: <BatteryCharging />,
     text: "Natural Language Processing",
     description:
       "We create AI-driven solutions for language processing, enhancing chatbots, sentiment analysis, and text-based tasks.",
   },
   {
-    img: "src/assets/llm.jpeg",
+    img: llm,
     icon: <PlugZap />,
     text: "Large Language Models",
     description:
       "We specialize in fine-tuning large language models like GPT and BERT for customized business applications.",
   },
   {
-    img: "src/assets/cv.jpeg",
+    img: cv,
     icon: <GlobeLock />,
     text: "Computer Vision",
     description:
       "We deliver real-time object detection, image segmentation, and visual data insights.",
   },
   {
-    img: "src/assets/bigdata.jpeg",
+    img: bigData,
     icon: <GlobeLock />,
     text: "Big Data",
     description:
       "We process and analyze large datasets with Hadoop, Spark, and distributed systems for valuable insights."
   },
   {
-    img: "src/assets/dataanalysis.jpeg",
+    img: dataAnalysis,
     icon: <GlobeLock />,
     text: "Data Analysis",
     description:
       "We transform raw data into actionable insights with advanced data interpretation techniques."
   },
   {
-    img: "src/assets/automation.jpeg",
+    img: automation,
     icon: <GlobeLock />,
     text: "Data Automation",
     description:
