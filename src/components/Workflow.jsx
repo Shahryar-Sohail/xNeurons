@@ -1,0 +1,43 @@
+import React from "react";
+import Slider from "react-slick";
+import codeImg from "../assets/bigdata.jpeg";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css"; // Ensure the slick CSS is included
+
+const Workflow = () => {
+  const settings = {
+    infinite: true,
+    slidesToShow: 2,
+    speed: 2000,
+    dots: true,
+    slidesToScroll: 1,
+    arrows: false,
+    centerMode: true,
+    focusOnSelect: true,
+    autoplay: false, // Enable auto-scrolling
+    autoplaySpeed: 2000,
+  };
+
+  return (
+    <div className="mt-20 " id="projects">
+      <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center mt-6 tracking-wide">
+        Future of{" "}
+        <span className="bg-gradient-to-r from-orange-500 to-orange-800 text-transparent bg-clip-text">
+          Development
+        </span>
+      </h2>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-10">
+        <div class="h-[300px] sm:h-[500px]">
+          <img class="w-full h-full object-cover rounded-lg" src="../src/assets/qoute.jpg" alt="" />
+        </div>
+        <div class="h-[300px] sm:h-[500px]">
+          <img class="w-full h-full object-cover rounded-lg" src="../src/assets/robot.jpeg" alt="" />
+        </div>
+      </div>
+
+    </div>
+  );
+};
+
+export default Workflow;
