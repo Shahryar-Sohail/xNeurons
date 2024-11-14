@@ -3,7 +3,7 @@ import { pricingOptions } from "../constants";
 import shahryar from "../assets/shahryar.jpeg";
 import asad from "../assets/asad.jfif";
 
-const Pricing = () => {
+const Founders = () => {
   return (
     <div className="mt-20" id="founders">
       <h2 className="text-3xl sm:text-5xl lg:text-6xl text-center my-8 tracking-wide">
@@ -14,7 +14,7 @@ const Pricing = () => {
       </h2>
 
       <div className="flex flex-wrap justify-center">
-        <div class="w-full max-w-sm dark rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 ">
+        <div class="w-full max-w-sm dark rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 hover:bg-cyan-800">
           <a href="#">
             <img class="p-8 rounded-t-lg h-96 w-80 mx-auto" src={shahryar} alt="product image" />
           </a>
@@ -26,7 +26,7 @@ const Pricing = () => {
           </div>
         </div>
         
-        <div class="w-full max-w-sm dark rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div class="w-full max-w-sm dark rounded-lg shadow dark:bg-gray-800 dark:border-gray-700  hover:bg-cyan-800">
           <a href="#">
             <img class="p-8 rounded-t-lg h-96 w-80 mx-auto" src={asad} alt="product image" />
           </a>
@@ -43,40 +43,6 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default Founders;
 
 
-{/* <div className="flex flex-wrap">
-{pricingOptions.map((option, index) => (
-  <div key={index} className="w-full sm:w-1/2 lg:w-1/3 p-2">
-    <div className="p-10 border border-neutral-700 rounded-xl">
-      <p className="text-4xl mb-8">
-        {option.title}
-        {option.title === "Pro" && (
-          <span className="bg-gradient-to-r from-orange-500 to-red-400 text-transparent bg-clip-text text-xl mb-4 ml-2">
-            (Most Popular)
-          </span>
-        )}
-      </p>
-      <p className="mb-8">
-        <span className="text-5xl mt-6 mr-2">{option.price}</span>
-        <span className="text-neutral-400 tracking-tight">/Month</span>
-      </p>
-      <ul>
-        {option.features.map((feature, index) => (
-          <li key={index} className="mt-8 flex items-center">
-            <CheckCircle2 />
-            <span className="ml-2">{feature}</span>
-          </li>
-        ))}
-      </ul>
-      <a
-        href="#"
-        className="inline-flex justify-center items-center text-center w-full h-12 p-5 mt-20 tracking-tight text-xl hover:bg-orange-900 border border-orange-900 rounded-lg transition duration-200"
-      >
-        Subscribe
-      </a>
-    </div>
-  </div>
-))}
-</div> */}

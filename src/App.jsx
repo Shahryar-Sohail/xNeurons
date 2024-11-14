@@ -1,24 +1,24 @@
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
-import FeatureSection from "./components/FeatureSection";
+import Services from "./components/Services";
 import Workflow from "./components/Workflow";
 import Footer from "./components/Footer";
-import Pricing from "./components/Pricing";
+import Founders from "./components/Founders";
 import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
-    <>
+    <div className="bg-gray-500">
       <Navbar />
         <HeroSection />
       <div className="max-w-7xl mx-auto pt-20 px-6">
-        <FeatureSection />
+        <Services />
         <Workflow />
-        <Pricing />
+        <Founders />
         <Testimonials />
         <Footer />
       </div>
-    </>
+    </div>
   );
 };
 

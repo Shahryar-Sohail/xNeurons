@@ -4,13 +4,15 @@ import video from "../assets/bgvideo.mkv";
 
 const HeroSection = () => {
   return (
-    <div className="flex flex-col item-center w-auto h-screen ">
+    <div className="flex flex-col item-center w-auto h-screen">
 
       <video
         className="absolute top-0 left-0 w-full h-full object-cover overflow-hidden"
         autoPlay
         loop
         muted
+        playsInline
+        preload="none"
       >
         <source src={video} type="video/mp4" />
         Your browser does not support the video tag.

@@ -52,7 +52,7 @@ const Navbar = () => {
             </ul>
             <div className="flex space-x-6">
               <a
-                href="#"
+                href="https://www.linkedin.com/company/xneurons/about/" target="_blank"
                 className="py-2 px-3 rounded-md bg-gradient-to-r from-orange-500 to-orange-800"
               >
                 Contact Us
